@@ -14,13 +14,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/murzagalin/multiplatform-expressions-evaluator")
-            credentials {
-                username = "<your username>"
-                password = "<your token>" // https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-            }
-        }
     }
 }
 
