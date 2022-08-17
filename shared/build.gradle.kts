@@ -25,7 +25,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("io.github.murzagalin:multiplatform-expressions-evaluator:0.14.0")
+                implementation("io.github.murzagalin:multiplatform-expressions-evaluator:0.14.1")
             }
         }
         val commonTest by getting {
